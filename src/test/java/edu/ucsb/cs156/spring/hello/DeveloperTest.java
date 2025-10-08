@@ -22,7 +22,7 @@ public class DeveloperTest {
 
     @Test
     public void getName_returns_correct_name() {
-        assertEquals("Natalie", Developer.getName());
+        assertEquals("Natalie Marie", Developer.getName());
     }
 
     @Test
@@ -39,10 +39,10 @@ public class DeveloperTest {
     @Test
     public void getTeam_returns_team_with_correct_members() {
         Team  t = Developer.getTeam();
-        assertTrue(t.getMembers().contains("Natalie"),"Team should contain Natalie");
+        assertTrue(t.getMembers().contains("Natalie Marie"),"Team should contain Natalie Marie");
         assertTrue(t.getMembers().contains("Julia"),"Team should contain Julia");
         assertTrue(t.getMembers().contains("Austin"),"Team should contain Austin");
-        assertTrue(t.getMembers().contains("Andrew"),"Team should contain Andrew");
+        assertTrue(t.getMembers().contains("Andrew Zhuo"),"Team should contain Andrew Zhuo");
         assertTrue(t.getMembers().contains("Longjiao"),"Team should contain Longjiao");
         assertTrue(t.getMembers().contains("Abhiram"),"Team should contain Abhiram");
     }
